@@ -37,6 +37,7 @@ Lord of the Fries,4,,"Vegan burgers (burger alone is not filling enough, get chi
 Mentatz,11,,"DO NOT ORDER THE RAMEN, IN FACT DON'T GO AT ALL.","=IFERROR(MEDIAN(G37:N37,VLOOKUP(F37,$C$42:$D$47,2,FALSE)),"""")",Cheap-Average,0,0,4,0,3,,,,,
 "Celine Mediterranean ""Cuisine""",12,,"""i feel ill for a whole afternoon and had onion breath into the evening."" <- always has onion breath","=IFERROR(MEDIAN(G38:N38,VLOOKUP(F38,$C$42:$D$47,2,FALSE)),"""")",Cheap,,4,4,9,2,,,,,
 Daikoku,3,,,"=IFERROR(MEDIAN(G39:N39,VLOOKUP(F39,$C$42:$D$47,2,FALSE)),"""")",Cheap-Average,,4,5,1,7,3,,,,
+Renkon,4, nah ,bowl of sad" "dissapointment" "yuck and shit",,,,,,,,,,,,
 ,,,,,,,,,,,,,,,
 Price Bin Key (per person) -  ,,Scale,,,,,,,,,,,,,
 $7.50 - $12.50 = Cheap ,,Cheap,9,,,,,,,,,,,,
