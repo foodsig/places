@@ -26,14 +26,17 @@ jobs:
       run: |
         python places.py
         zip -jX places.zip places.xlsx
+    - name: Generate UUID
+      id: generate-uuid
+      uses: filipstefansson/uuid-action@master
     - name: Create Release
       id: create_release
       uses: actions/create-release@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: latest
-        release_name: Latest
+        tag_name: "${{ steps.generate-uuid.outputs.uuid }}"
+        release_name: "${{ steps.generate-uuid.outputs.uuid }}"
         draft: false
         prerelease: false
     - name: Upload Release Asset
